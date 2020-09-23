@@ -69,7 +69,7 @@ int main() {
   int ranges_amount = 0;
   int sum;
   scanf("%d", &sum);
-  while (sum != 0 && sum != 1 && sum != 2 && sum != 3) {
+  while (sum < 0 && sum > 3) {
     puts("Not a valid sum.");
     scanf("%d", &sum);
   }
